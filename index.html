@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فريق التطوير - XTZ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --main-color: #fff;
+            --accent-color: #ff5722;
+            --box-color: #1a1a1a;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background: #000;
+            color: var(--main-color);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            padding: 30px 0;
+        }
+
+        .logo h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+            font-weight: 900;
+            color: var(--accent-color);
+        }
+
+        .logo p {
+            font-size: 22px;
+            color: #aaa;
+            margin: 0;
+        }
+
+        .divider {
+            height: 4px;
+            background-color: var(--accent-color);
+            width: 100%;
+            margin: 40px 0;
+        }
+
+        .developers-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .developer-box {
+            background: var(--box-color);
+            border-radius: 15px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.4s;
+        }
+
+        .developer-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(255, 87, 34, 0.2);
+        }
+
+        .developer-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent-color);
+            margin-bottom: 20px;
+        }
+
+        .developer-name {
+            font-weight: 900;
+            font-size: 2rem;
+            margin: 10px 0 5px;
+            color: #fff;
+        }
+
+        .developer-role {
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .developer-social {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .developer-social a {
+            color: var(--main-color);
+            font-size: 1.6rem;
+            transition: all 0.3s;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 12px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        .developer-social a:hover {
+            color: var(--accent-color);
+            transform: scale(1.2);
+            background: rgba(255, 87, 34, 0.15);
+        }
+
+        footer {
+            padding: 30px;
+            font-size: 16px;
+            color: #555;
+            border-top: 1px solid #333;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>DevX TEAM 💪</h1>
+                <p>Devloppers DevX TEAM OFFICIEL</p>
+            </div>
+        </header>
+
+        <div class="divider"></div>
+
+        <div class="developers-container">
+
+            <!-- BLACK ANTIBAN -->
+            <div class="developer-box">
+                <img src="images/black_antiban.jpg" alt="المطور" class="developer-img">
+                <h3 class="developer-name">BLACK ANTIBAN</h3>
+                <p class="developer-role">مطور بوتات</p>
+                <div class="developer-social">
+                    <a href="https://wa.me/21620763615" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/Z_XX_0" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/azizv07?igsh=MWptdzVtcnJ3NmxoZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@blackk_3mk?_t=ZM-8wjpjE7XT4n&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- KiraDevX -->
+            <div class="developer-box">
+                <img src="images/kira.jpg" alt="KiraDevX" class="developer-img">
+                <h3 class="developer-name">KiraDevX</h3>
+                <p class="developer-role">مطور بوتات</p>
+                <div class="developer-social">
+                    <a href="https://t.me/tmgx_kira" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/tmgx_kira?igsh=NmxhZ3ExMDk5NHls" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@tmgx_kira?_t=ZM-8wjpqcmhZ0H&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- LBRENES -->
+            <div class="developer-box">
+                <img src="images/lbrenes.jpg" alt="LBRENES" class="developer-img">
+                <h3 class="developer-name">LBRENES</h3>
+                <p class="developer-role">مطور بوتات</p>
+                <div class="developer-social">
+                    <a href="https://t.me/BBL1_LBRENES_MOODZ" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/ux._a0?igsh=azdqMG5nODNwMjhh" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Muslim -->
+            <div class="developer-box">
+                <img src="images/muslim.jpg" alt="Muslim" class="developer-img">
+                <h3 class="developer-name">Muslim</h3>
+                <p class="developer-role">مطور بوتات</p>
+                <div class="developer-social">
+                    <a href="https://t.me/zox_z8" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <!-- ZIX OFFICIEL -->
+            <div class="developer-box">
+                <img src="images/zix.jpg" alt="ZIX OFFICIEL" class="developer-img">
+                <h3 class="developer-name">ZIX OFFICIEL</h3>
+                <p class="developer-role">مطور بوتات</p>
+                <div class="developer-social">
+                    <a href="https://t.me/XiZYELFI" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/zix_off1?igsh=MWJsZGJibDU1a3dpcg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@zixofficial00?si=Qx7sT3cLqWqX5jyl" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>فريق التطوير جميع الحقوق محفوظة.</p>
+            <p>[𝕭𝖑𝖆𝖈𝖐𝖝] 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
